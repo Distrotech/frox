@@ -12,8 +12,9 @@ FAQ: FAQ.sgml
 	sgml2txt FAQ.sgml
 	mv FAQ.txt FAQ
 
-frox.man: frox.sgml
-	sgml2txt -m frox.sgml
+frox.man: 
+#frox.sgml
+#	sgml2txt -m frox.sgml
 
 frox.conf.man: 
 #frox.conf.sgml
