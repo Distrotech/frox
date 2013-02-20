@@ -408,7 +408,8 @@ uninstall-man: uninstall-man5 uninstall-man8
 	uninstall-info-am uninstall-man uninstall-man5 uninstall-man8
 
 
-all-local: FAQ.html FAQ frox.man frox.conf.man
+all-local: 
+#FAQ.html FAQ frox.man frox.conf.man
 
 FAQ.html: FAQ.sgml
 	sgml2html -s 1 FAQ.sgml
