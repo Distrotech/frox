@@ -1,5 +1,5 @@
-SUBDIRS = lib src doc
-DIST_SUBDIRS = lib src doc
+SUBDIRS = lib src
+DIST_SUBDIRS = lib src
 EXTRA_DIST = bootstrap include/config.h.in BUGS cacheconv.pl
 
 dist-hook:
