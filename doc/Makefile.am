@@ -15,8 +15,9 @@ FAQ: FAQ.sgml
 frox.man: frox.sgml
 	sgml2txt -m frox.sgml
 
-frox.conf.man: frox.conf.sgml
-	sgml2txt -m frox.conf.sgml
+frox.conf.man: 
+#frox.conf.sgml
+#	sgml2txt -m frox.conf.sgml
 
 distclean-local:
 	rm -f FAQ FAQ.txt FAQ*html frox.man
